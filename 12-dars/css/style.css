@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.about{
+  height: 300px;
+  background-color: #fff;
+}
+
+.contact{
+  margin-top: 300px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.form{
+  height: 300px;
+  background-color: #fff;
+}
+
+p, h2{
+  text-align: center;
+  
+  }
+
+  div{
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  } */
+
+  nav{
+    height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+
+  .menu{
+    color: #fff;
+    display: flex;
+    gap: 0 30px;
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .menu li{
+    position: relative;
+  }
+
+  .products-menu{
+    position: absolute;
+    background-color: black;
+    list-style-type: none;
+    padding: 10px;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+  .menu > li:nth-child(2):hover  .products-menu{
+    display: block;
+  }
+
+  .menu > li:nth-child(2):hover i{
+    transform: rotate(-180deg);
+  }
+
+  .products-menu > li{
+    padding: 10px 20px;
+    white-space: nowrap;
+  }
+
+  .products-menu > li:hover{
+    background-color: rgb(100, 99, 99);
+  }

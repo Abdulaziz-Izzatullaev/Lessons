@@ -1,0 +1,120 @@
+/* *{ */
+  /* barcha elementga ta'si ko'rsatadi */
+/* } */
+
+/* UNIVERSAL SELECTOR */
+
+/* p{
+  color: green;
+} */
+
+/* TAG SELECTOR, TYPE SELECTOR */
+
+/* .title{
+  background-color: purple;
+}
+
+strong, i{
+  background-color: aqua;
+} */
+
+/* GROUP SELECTOR */
+/* 
+.box > p{
+  font-size: 20px;
+  background-color: bisque;
+} */
+
+/* .box p SHUNCHAKI ICHIDAGI ELEMENT */
+
+/* TO'GRIDAN TO'G'RI CHILD */
+
+/* button + p{
+  color: blue;
+} */
+/* 
+.box > .wrapper > strong + p{
+  color: aquamarine;
+} */
+
+/* input[type="text"]{
+  background-color: green;
+} */
+
+/* ATTRIBUTE */
+
+/* .box:has(h1){
+  padding: 20px;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+} */
+
+
+/* .box{
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+} */
+
+/* h1{
+  background: linear-gradient(180deg, rgb(0, 255, 47) 0%, rgb(251, 255, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.btn{
+  background-color: cadetblue;
+  color: #fff;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 2px solid transparent;
+}
+
+ .btn:hover{
+  background-color: transparent;
+  color: cadetblue;
+  border:2px solid cadetblue;
+}
+
+/* .btn:active{
+  transform: scale(0.9);
+}  */
+
+
+/* box-shadow */
+/* order */
+/* child */
+/* vw, vh, em, rem */
+/* background position */
+/* background attachment */
+/* background 2 layers */
+/* background */
+
+
+/* flex grow */
+/* flex shrink */
+
+/* img{ */
+  /* filter: blur(10px); */
+  /* filter: brightness(200%); */
+  /* filter: contrast(200%); */
+  /* filter: grayscale(1); */
+  /* filter: hue-rotate(100deg); */
+  /* filter: invert(0); */
+  /* filter: opacity(0.9); */
+  /* filter: saturate(400%); */
+  /* filter: sepia(1); */
+  /* filter: brightness(200%) saturate(400%) blur(5px); */
+/* } */
+
+/* .box{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  box-shadow: 0px 0px 10px 10px gray;
+} */

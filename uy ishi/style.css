@@ -1,0 +1,64 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.titles{
+width: 554px;
+height: 406px;
+}
+.titles__main{
+width: 322px;
+height: 105px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 144.77px;
+gap: 41px;
+}
+.titles__main-img{
+width: 45px;
+height: 33px ;  
+}
+.titles__main-text{
+color: #0B132A;
+font-size: 34.22px;
+font-family: Rubik;
+font-weight: 700;
+line-height: 39.48px;
+}
+.titles__text{
+font-size: 90px;
+font-family: Rubik;
+line-height: 130px;
+}
+[for=titles__text]{
+font-weight: 400;
+line-height: 130px;
+color: #B6C0DB;
+}
+[for=titles__text-anth]{
+font-family: Rubik;
+font-weight: 500;
+color: #0B132A;
+}
+.All-wrp{
+height: 2938px;
+background-color: blue;
+display: flex;
+}
+.Aboutus{
+width: 676px;
+height: 2438px;
+background-color: green;
+}
+.navbar{
+background-color: red;
+width: 100%;
+
+}

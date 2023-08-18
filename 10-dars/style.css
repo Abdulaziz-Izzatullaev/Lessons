@@ -1,0 +1,122 @@
+@font-face{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+src:url(/10-dars/fonts/Segoe\ UI.ttf);
+src: url(/10-dars/fonts/Segoe\ UI\ Bold.ttf);
+src: url(/10-dars/fonts/Segoe\ UI\ Italic.ttf);
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.card__wrp{
+width: 1366px;
+border: 1px solid black;
+}
+.container{
+width: 496px;
+height: 849px;
+border: 1px solid blue;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+}
+.card__logo{
+max-width: 101px;
+max-height: 40px;
+}
+.card__about{
+color: rgba(0, 0, 0, 0.85);
+font-size: 29px;
+font-family: Segoe UI;
+font-weight: 700;
+margin-top: 24px;
+}
+.card__help{
+color: #444150;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.card__link{
+color: #01BAB3;
+font-size: 16px;
+font-family: Segoe UI;
+font-weight: 600;
+line-height: 26px;
+margin-top: 16px;
+}
+.card__info{
+max-width: 200px;
+}
+.card__input{
+width: 200px ;
+height: 48px;
+font-size: 16px;
+}
+.card__Input-type{
+color: #444150;
+font-size: 16px;
+font-family: Segoe UI;
+font-weight: 600;
+line-height: 24px;
+}
+.card__Input-type sub{
+color: #01BAB3;
+font-size: 16px;
+font-family: Segoe UI;
+font-weight: 600;
+line-height: 24px;
+}
+.card__info-wrp{
+width: 100%;
+height: 130px;
+display: flex;
+gap: 0 16px;
+padding: 56px 40px ;
+}
+.card__info-two{
+padding: 0px 40px ;
+margin-top: 24px;
+}
+.card__input-two{
+width: 416px;
+height: 48px;
+}
+.card__input-3-wrp{
+width: 416px;
+display: flex;
+gap: 0 16px;
+margin-top: 56px;
+}
+.card__input-3{
+width: 200px;
+height: 48px;
+border: 1px solid black;
+flex-direction: column;
+}
+.card__info-four{
+width: 416px;
+height: 48px;
+margin-top: 24px;
+}
+.four{
+margin-top: 40px;
+}
+.btn{
+margin-top: 170px;
+width: 416px;
+height: 48px;
+background-color: #01BAB3;
+border: none;
+border-radius: 5px;
+color: white;
+}

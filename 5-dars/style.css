@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* 
+.text{
+  opacity: 0;
+}
+
+h2{
+  display: none;
+} */
+
+/* p{ */
+  /* top, right, bottom, left */
+  /* margin: 20px 30px 40px 50px;
+  padding: 30px 40px 50px 60px;
+  border: 10px solid black;
+  background-color: red;
+} */
+
+/* .box{
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  border: 5px solid black;
+  padding: 30px 40px;
+} */
+
+/* .text{
+  color: green;
+}
+
+.text{
+  color: red;
+} */
+
+/* .wrapper{
+  padding: 14px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.success{
+  background-color: green;
+}
+
+.danger{
+  background-color: red;
+} */
+
+
+.card{
+  width: 250px;
+  height: 350px;
+  background-color: pink;
+  display: inline-block;
+  /* inline yonma yon */
+  /* block margin padidng wa width height */
+}
